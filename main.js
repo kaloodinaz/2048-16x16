@@ -793,10 +793,10 @@ HTMLActuator.prototype.clearMessage = function () {
 HTMLActuator.prototype.scoreTweetButton = function () {
     var tweet = document.createElement("a");
     tweet.classList.add("twitter-share-button");
-    tweet.setAttribute("href", "https://twitter.com/share");
-    tweet.setAttribute("data-via", "gabrielecirulli");
-    tweet.setAttribute("data-url", "http://git.io/2048");
-    tweet.setAttribute("data-counturl", "http://gabrielecirulli.github.io/2048/");
+    tweet.setAttribute("href", "https://x.com/share");
+    tweet.setAttribute("data-via", "FosterIhor5349");
+    tweet.setAttribute("data-url", "https://kaloodinaz.github.io/2048-16x16/");
+    tweet.setAttribute("data-counturl", "https://kaloodinaz.github.io/2048-16x16/");
     tweet.textContent = "Tweet";
 
     var text = "I scored " + this.score + " points at 2048, a game where you " +
